@@ -13,9 +13,5 @@ setup(name='pid_controller',
       author_email='jrh@netfluvia.org',
       license='BSD',
       packages=['pid_controller'],
-      scripts=['bin/blah'],
       include_package_data=True,    ## causes non-python files in the MANIFEST to be included at install time
-      install_requires=[
-                'markdown',  # FIXME
-            ],
       zip_safe=False)
